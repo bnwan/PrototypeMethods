@@ -1,23 +1,27 @@
 {
-  "name": "PrototypeMethods",
-  "version": "0.0.1",
-  "description": " ",
-  "main": "prototypeMethods.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bnwan/PrototypeMethods.git"
-  },
-  "keywords": [
-    "prototype",
-    "methods"
-  ],
-  "author": "Benjamin Nwaneampeh",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bnwan/PrototypeMethods/issues"
-  },
-  "homepage": "https://github.com/bnwan/PrototypeMethods"
+    "name": "PrototypeMethods",
+    "version": "0.0.1",
+    "description": " ",
+    "main": "prototypeMethods.js",
+    "scripts": {
+        "build": "node build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bnwan/PrototypeMethods.git"
+    },
+    "keywords": [
+        "prototype",
+        "methods"
+    ],
+    "author": "Benjamin Nwaneampeh",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bnwan/PrototypeMethods/issues"
+    },
+    "homepage": "https://github.com/bnwan/PrototypeMethods",
+    "devDependencies": {
+        "browserify": "^3.41.0"
+    }
 }
